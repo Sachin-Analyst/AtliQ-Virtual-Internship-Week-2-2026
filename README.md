@@ -1,7 +1,5 @@
 # AtliQ-Virtual-Internship-Week-2-2026
 
-# AtliQ-Virtual-Internship-Week-2-2026
-
 Welcome to my AtliQ Technologies Virtual Internship project. This repository features a variance analysis solution built for AtliQ Technologies' order and delivery quantity data, comparing recorded values against benchmark values using DAX measures in Power BI. The project also covers a custom month dimension table built to bridge two unrelated fact tables for reliable reporting.
 
 ---
@@ -27,7 +25,7 @@ Welcome to my AtliQ Technologies Virtual Internship project. This repository fea
 ## Project Description
 This repository contains the Week 2 body of work from my Data Analyst Virtual Internship at AtliQ Technologies.
 
-*Task 1* covers comparing recorded order and delivery quantities against benchmark values using DAX measures built in Power BI — calculating absolute difference and percentage variance from benchmark for both metrics. It also covers building a custom `Dim_Month` table to bridge the fact and benchmark tables on a common month key, since they weren't linked on any shared dimension, and solving a circular dependency error encountered while sorting that table chronologically.
+*Task 1* covers comparing recorded order and delivery quantities against benchmark values using DAX measures built in Power BI calculating absolute difference and percentage variance from benchmark for both metrics. It also covers building a custom `Dim_Month` table to bridge the fact and benchmark tables on a common month key, since they weren't linked on any shared dimension, and solving a circular dependency error encountered while sorting that table chronologically.
 
 Task 2 will be added to this repository as the week progresses.
 
