@@ -14,7 +14,7 @@ Two source tables were used:
 
 ---
 
-## DAX Measures — Order Quantity
+## DAX Measures  Order Quantity
 
 ```dax
 BM_ORDER_QTY = SUM(BENCHMARKS[TOTAL_ORDER_QUANTITY])
@@ -26,7 +26,7 @@ DIFF_ORDER_QTY = ABS([RECORDED_ORDER_QTY] - [BM_ORDER_QTY])
 ORDER_%_BM = ABS([RECORDED_ORDER_QTY] - [BM_ORDER_QTY]) / [BM_ORDER_QTY] * 100
 ```
 
-## DAX Measures — Delivery Quantity
+## DAX Measures  Delivery Quantity
 
 ```dax
 BM_DELIVERY_QTY = SUM(BENCHMARKS[TOTAL_DELIVERY_QUANTITY])
@@ -77,18 +77,18 @@ Dim_Month =
 ## Business Questions & Answers
 
 **1. Which customer_id has the largest absolute difference between recorded and benchmark order quantity?**  
-→ May_22 — Elite Mart — 789903 — Vadodara (Diff: 4,781 | 7.48%)
+> May_22 - Elite Mart - 789903 - Vadodara (Diff: 4,781 | 7.48%)
 
 **2. How many customers in the delivery category have a difference greater than 3% between recorded and benchmark delivery quantity, expressed as a percentage of the benchmark?**  
-→ **05**  
-*Counted at customer-month level. Lotus Mart (789420) appears twice — in Jun_22 and Jul_22 — as it independently crossed the 3% threshold in both months.*
+> **05**  
+*Counted at customer month level. Lotus Mart (789420) appears twice  in Jun_22 and Jul_22  as it independently crossed the 3% threshold in both months.*
 
 **3. What is the quantity of orders recorded for "Viveks Stores" in Vadodara during March 2022?**  
-→ **73,011**
+> **73,011**
 
 ---
 
 ## Key Learnings
-- Data here is tracked at a *customer-month level*, not just customer level — the same `customer_id` can appear more than once if it crosses a threshold in different months. When a question asks "how many customers," it's worth being clear whether the count is customer-month instances or unique `customer_id`s.
-- Total rows in a Power BI table visual can behave oddly when mixing text and numeric columns — turned off Total rows to keep output matching the expected reference table exactly.
-- Sorting on a text-based month column (`mmm_yy`) sorts alphabetically by default, not chronologically — solved by generating a `MONTH_SORT` helper column inside the same table expression as the month column itself, avoiding a circular dependency.
+- Data here is tracked at a *customer month level*, not just customer level  the same `customer_id` can appear more than once if it crosses a threshold in different months. When a question asks "how many customers," it's worth being clear whether the count is customer-month instances or unique `customer_id`s.
+- Total rows in a Power BI table visual can behave oddly when mixing text and numeric columns  turned off Total rows to keep output matching the expected reference table exactly.
+- Sorting on a text based month column (`mmm_yy`) sorts alphabetically by default, not chronologically solved by generating a `MONTH_SORT` helper column inside the same table expression as the month column itself, avoiding a circular dependency.
