@@ -61,7 +61,7 @@ Dim_Month =
     )
 ```
 
-**Approach note:** `MONTH_SORT` was first attempted as a separate calculated column referencing `mmm_yy`. Setting `mmm_yy`'s "Sort by Column" property to `MONTH_SORT` threw a circular dependency error, since Power BI detected a loop (`mmm_yy` > sorted by > `MONTH_SORT` > calculated from → `mmm_yy`). The fix was to generate both columns together inside the same `ADDCOLUMNS` table expression, rather than layering the sort column on afterward. This removed the dependency loop and allowed `mmm_yy` to sort chronologically instead of alphabetically.
+**Approach note:** `MONTH_SORT` was first attempted as a separate calculated column referencing `mmm_yy`. Setting `mmm_yy`'s "Sort by Column" property to `MONTH_SORT` threw a circular dependency error, since Power BI detected a loop (`mmm_yy` > sorted by > `MONTH_SORT` > calculated from > `mmm_yy`). The fix was to generate both columns together inside the same `ADDCOLUMNS` table expression, rather than layering the sort column on afterward. This removed the dependency loop and allowed `mmm_yy` to sort chronologically instead of alphabetically.
 
 **Common columns pulled from related tables:**
 
