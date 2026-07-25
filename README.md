@@ -27,7 +27,7 @@ This repository contains the Week 2 body of work from my Data Analyst Virtual In
 
 *Task 1* covers comparing recorded order and delivery quantities against benchmark values using DAX measures built in Power BI calculating absolute difference and percentage variance from benchmark for both metrics. It also covers building a custom `Dim_Month` table to bridge the fact and benchmark tables on a common month key, since they weren't linked on any shared dimension, and solving a circular dependency error encountered while sorting that table chronologically.
 
-Task 2 will be added to this repository as the week progresses.
+*Task 2* covers diagnosing and fixing 9 broken SQL queries against the gdb080 database, identifying the exact syntax bug behind each failure and rewriting the query to run correctly. It also covers documenting the recurring patterns behind those bugs, since most of the 9 failures traced back to a handful of repeatable mistakes (missing keywords, misplaced brackets, mismatched quotes, wrong clause order), and mapping each pattern back to the queries it showed up in.
 
 ---
 
