@@ -29,6 +29,8 @@ This repository contains the Week 2 body of work from my Data Analyst Virtual In
 
 *Task 2* covers diagnosing and fixing 9 broken SQL queries against the gdb080 database, identifying the exact syntax bug behind each failure and rewriting the query to run correctly. It also covers documenting the recurring patterns behind those bugs, since most of the 9 failures traced back to a handful of repeatable mistakes (missing keywords, misplaced brackets, mismatched quotes, wrong clause order), and mapping each pattern back to the queries it showed up in.
 
+*Task 3* covers automating a client's manual weekly network status report using Power Query in Power BI, combining two separate data sources, network data and activity data, into a single pivoted summary showing status counts by city. It also covers standardizing mismatched column names between the two sources before merging them, since they tracked different status categories under different headers, and fixing a duplicate-column bug caused by inconsistent spacing in the status values, which required a text trim step before the group and pivot stages to produce a clean, accurate table.
+
 
 ---
 
