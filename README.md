@@ -63,7 +63,7 @@ To explore or modify this project:
 - The Dim_Month table build and how a circular dependency sort error was resolved
 
 ----
-### Explore the `Task-1-Report` folder for the full breakdown and business logic behind each requirement.
+### Explore the `Task-1-Report` `Task-2-report`folder for the full breakdown and business logic behind each requirement.
 ----
 
 # Note !
