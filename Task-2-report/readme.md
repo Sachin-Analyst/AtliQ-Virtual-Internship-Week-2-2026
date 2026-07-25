@@ -11,7 +11,7 @@ None of the bugs involved logic. Every single one was a small syntax detail: a m
 
 ## Database
 
-`gdb080` — tables used across the 9 queries: `dim_customers`, `dim_products`, `dim_targets_orders`, `fact_order_lines`, `fact_orders_aggregate`
+`gdb080` - tables used across the 9 queries: `dim_customers`, `dim_products`, `dim_targets_orders`, `fact_order_lines`, `fact_orders_aggregate`
 
 ## Approach
 
@@ -23,7 +23,7 @@ For each query:
 
 ---
 
-## Query 1 of 9 — Unique customers in the city of 'Surat'
+## Query 1 of 9 - Unique customers in the city of 'Surat'
 
 **The Bug**
 ```sql
@@ -45,7 +45,7 @@ WHERE city = "Surat";
 
 ---
 
-## Query 2 of 9 — Min and max order quantities per product
+## Query 2 of 9 - Min and max order quantities per product
 
 **The Bug**
 ```sql
@@ -76,7 +76,7 @@ GROUP BY dp.product_id;
 
 ---
 
-## Query 3 of 9 — Unfulfilled orders (order_qty - delivery_qty) by month
+## Query 3 of 9 - Unfulfilled orders (order_qty - delivery_qty) by month
 
 **The Bug**
 ```sql
@@ -102,7 +102,7 @@ ORDER BY unfullfilled_orders DESC;
 
 ---
 
-## Query 4 of 9 — Percentage breakdown of order_qty by category
+## Query 4 of 9 - Percentage breakdown of order_qty by category
 
 **The Bug**
 ```sql
@@ -144,7 +144,7 @@ ORDER BY order_qty_pct DESC ;
 
 ---
 
-## Query 5 of 9 — Customer on-time target % and percentage category
+## Query 5 of 9 - Customer on-time target % and percentage category
 
 **The Bug**
 ```sql
@@ -184,7 +184,7 @@ JOIN gdb080.dim_customers c
 
 ---
 
-## Query 6 of 9 — Product categories with product name and count per category
+## Query 6 of 9 - Product categories with product name and count per category
 
 **The Bug**
 ```sql
@@ -206,7 +206,7 @@ GROUP BY category;
 
 ---
 
-## Query 7 of 9 — Top 3 most demanded products in the 'Dairy' category (order_qty in Mlns)
+## Query 7 of 9 - Top 3 most demanded products in the 'Dairy' category (order_qty in Mlns)
 
 **The Bug**
 ```sql
@@ -239,7 +239,7 @@ LIMIT 3;
 
 ---
 
-## Query 8 of 9 — OTIF % for customer "Vijay Stores"
+## Query 8 of 9 - OTIF % for customer "Vijay Stores"
 
 **The Bug**
 ```sql
@@ -269,7 +269,7 @@ GROUP BY c.customer_name;
 
 ---
 
-## Query 9 of 9 — In-Full % per product and which product ranks highest
+## Query 9 of 9 - In-Full % per product and which product ranks highest
 
 **The Bug**
 ```sql
