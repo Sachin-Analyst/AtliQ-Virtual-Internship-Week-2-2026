@@ -333,4 +333,3 @@ Most SQL bugs are not logic problems. They are syntax hiding in plain sight, and
 
 ---
 *AtliQ Technologies | Vishnu Ram Sachin | Data Analyst Intern*
-*On Meaning · Creativity Clicks — Growing 1% every day.*
