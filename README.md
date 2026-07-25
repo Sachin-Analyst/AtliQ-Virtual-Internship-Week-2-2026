@@ -29,11 +29,13 @@ This repository contains the Week 2 body of work from my Data Analyst Virtual In
 
 *Task 2* covers diagnosing and fixing 9 broken SQL queries against the gdb080 database, identifying the exact syntax bug behind each failure and rewriting the query to run correctly. It also covers documenting the recurring patterns behind those bugs, since most of the 9 failures traced back to a handful of repeatable mistakes (missing keywords, misplaced brackets, mismatched quotes, wrong clause order), and mapping each pattern back to the queries it showed up in.
 
+
 ---
 
 ## Folder Structure
 - *Task-1-Report* - Order & Delivery Quantity Variance Analysis: full DAX measures used, Dim_Month table build, business questions answered, and key learnings
 - *Task-2* - SQL-Debugging - SQL Query Debugging: 9 broken queries diagnosed and fixed, root cause for each bug, recurring syntax pattern summary, and key learnings
+- *Task-3* - Power-Query-Automation - Network Analysis Automation: two raw data sources standardized and merged via Power Query, city-wise status pivot table built, null handling and data type fixes applied, column reordering to match report layout, and key learnings
 
 ## Key Features
 - *Variance Analysis* - benchmark vs. recorded quantity comparison for orders and deliveries
