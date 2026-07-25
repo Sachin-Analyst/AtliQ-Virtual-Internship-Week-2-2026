@@ -33,7 +33,7 @@ Task 2 will be added to this repository as the week progresses.
 
 ## Folder Structure
 - *Task-1-Report* - Order & Delivery Quantity Variance Analysis: full DAX measures used, Dim_Month table build, business questions answered, and key learnings
-- *Task-2* - Coming soon
+- *Task-2* - SQL-Debugging - SQL Query Debugging: 9 broken queries diagnosed and fixed, root cause for each bug, recurring syntax pattern summary, and key learnings
 
 ## Key Features
 - *Variance Analysis* - benchmark vs. recorded quantity comparison for orders and deliveries
