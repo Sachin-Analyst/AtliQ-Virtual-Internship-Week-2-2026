@@ -4,26 +4,24 @@ Part of the AtliQ Technologies Virtual Internship (Week 2, Task 4).
 
 ## What this task is about
 
-Wavecon is a telecom operator that runs on recharge plans -- data, talktime, and combo packs. The business only makes money through recharges and subscriptions, so any shift in customer behaviour hits revenue directly.
+The brief for this task: you've been given a completed dashboard and asked to derive insights from it and turn those insights into a presentation for stakeholders.
 
-This task looks at what happened to Wavecon's business right around their 5G launch. The study compares four months before 5G (Jan to Apr) against four months after (Jun to Sep), across all 15 cities Wavecon operates in.
-
-The goal wasn't just to check if revenue went up or down. It was to find out why, and what Wavecon should actually do about it.
+AtliQ provided the underlying Power BI dashboard, tracking Wavecon Telecom's performance before and after their 5G launch, across 15 cities and 13 recharge plans. My part was restyling the dashboard's visuals, then pulling out the story hidden in the numbers and building a presentation around it.
 
 ## What's in this folder
 
-- `Wavecon_5G_Impact_Dashboard.pbix` -- Power BI dashboard with the full before/after breakdown by city and by plan
-- `Wavecon_Telecom_5G_Analysis.pdf` -- presentation deck walking through the analysis
+- `Wavecon_5G_Impact_Dashboard.pbix` -- the dashboard, data and measures provided by AtliQ, visuals restyled by me
+- `Wavecon_Telecom_5G_Analysis.pdf` -- the presentation deck I built from the dashboard's insights
 - Video presentation -- [link to be added]
 
 ## Key findings
 
-- Revenue dipped 0.50% after 5G launched, from ₹16.0bn to ₹15.9bn.
-- ARPU actually went up 11.05%, so paying customers spent more, not less.
-- Total active users dropped 8.28%, and low-usage users dropped 23.50%, this is where the real loss came from.
-- Plan P1 grew 32% post-5G, the only plan that did, while every other continuing plan declined.
-- Plan P7 lost 73% of its revenue, the steepest drop of any plan.
-- Wavecon was the only competitor to lose market share after 5G, down 1.35 percentage points, while every rival gained
+-- Revenue dipped 0.50% after 5G launched, from ₹16.0bn to ₹15.9bn
+-- ARPU actually went up 11.05%, so paying customers spent more, not less
+-- Total active users dropped 8.28%, and low-usage users dropped 23.50%, this is where the real loss came from
+-- Plan P1 grew 32% post-5G, the only plan that did, while every other continuing plan declined
+-- Plan P7 lost 73% of its revenue, the steepest drop of any plan
+-- Wavecon was the only competitor to lose market share after 5G, down 1.35 percentage points, while every rival gained
 
 ## What it means
 
@@ -35,10 +33,19 @@ Wavecon isn't losing money because customers are spending less. It's losing mone
 2. Rework the plan lineup, retire P7 and build more plans around the higher-data formats already being tested (P11, P12, P13)
 3. Focus on customer retention, especially in the cities and plans losing the most users
 
+## My part in this task
+
+- Derived all the insights above from the provided dashboard
+- Restyled the dashboard's visuals
+- Built the presentation deck and the narrative behind it
+- Recorded a video presentation walking through the analysis
+
 ## Tools used
 
-- Power BI (data modeling, DAX, dashboard)
-- PowerPoint (presentation)
+- Power BI (dashboard provided by AtliQ, visuals restyled)
+- PowerPoint (CANVA)
+- DaVinci Resolve (video presentation)
+
 ## Context
 
 This is Task 4 of Week 2 in the AtliQ Technologies Virtual Internship, run through the Codebasics bootcamp. See the main repo README for the full internship overview and the other weekly tasks.
