@@ -39,6 +39,7 @@ This repository contains the Week 2 body of work from my Data Analyst Virtual In
 - *Task-1-Report* - Order & Delivery Quantity Variance Analysis: full DAX measures used, Dim_Month table build, business questions answered, and key learnings
 - *Task-2* - SQL-Debugging - SQL Query Debugging: 9 broken queries diagnosed and fixed, root cause for each bug, recurring syntax pattern summary, and key learnings
 - *Task-3* - Power-Query-Automation - Network Analysis Automation: two raw data sources standardized and merged via Power Query, city-wise status pivot table built, null handling and data type fixes applied, column reordering to match report layout, and key learnings
+- *Task-4* - Wavecon Telecom 5G Impact Analysis -  before/after DAX measures across revenue, ARPU, active users, and low-usage users, city and plan-level breakdowns across 15 cities and 13 plans, conditional handling for plans retired or newly launched at the 5G cutoff, and key learnings
 
 ## Key Features
 - *Variance Analysis* - benchmark vs. recorded quantity comparison for orders and deliveries
