@@ -31,6 +31,7 @@ This repository contains the Week 2 body of work from my Data Analyst Virtual In
 
 *Task 3* covers automating a client's manual weekly network status report using Power Query in Power BI, combining two separate data sources, network data and activity data, into a single pivoted summary showing status counts by city. It also covers standardizing mismatched column names between the two sources before merging them, since they tracked different status categories under different headers, and fixing a duplicate-column bug caused by inconsistent spacing in the status values, which required a text trim step before the group and pivot stages to produce a clean, accurate table.
 
+*Task 4* covers measuring the impact of Wavecon Telecom's 5G launch across revenue, ARPU, active users, and low-usage users, using DAX measures built in Power BI to compare a four-month before period against a four-month after period across 15 cities and 13 recharge plans. It also covers handling the three plans retired exactly at launch and the three new plans introduced right after, since a standard before/after percentage change calculation would have thrown errors or misleading results against a missing period, and building conditional DAX logic to flag those plans as newly launched or retired instead of treating them as revenue swings.
 
 ---
 
