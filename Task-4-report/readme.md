@@ -16,12 +16,12 @@ AtliQ provided the underlying Power BI dashboard, tracking Wavecon Telecom's per
 
 ## Key findings
 
--- Revenue dipped 0.50% after 5G launched, from ₹16.0bn to ₹15.9bn
--- ARPU actually went up 11.05%, so paying customers spent more, not less
--- Total active users dropped 8.28%, and low-usage users dropped 23.50%, this is where the real loss came from
--- Plan P1 grew 32% post-5G, the only plan that did, while every other continuing plan declined
--- Plan P7 lost 73% of its revenue, the steepest drop of any plan
--- Wavecon was the only competitor to lose market share after 5G, down 1.35 percentage points, while every rival gained
+- Revenue dipped 0.50% after 5G launched, from ₹16.0bn to ₹15.9bn
+- ARPU actually went up 11.05%, so paying customers spent more, not less
+- Total active users dropped 8.28%, and low-usage users dropped 23.50%, this is where the real loss came from
+- Plan P1 grew 32% post-5G, the only plan that did, while every other continuing plan declined
+- Plan P7 lost 73% of its revenue, the steepest drop of any plan
+- Wavecon was the only competitor to lose market share after 5G, down 1.35 percentage points, while every rival gained
 
 ## What it means
 
