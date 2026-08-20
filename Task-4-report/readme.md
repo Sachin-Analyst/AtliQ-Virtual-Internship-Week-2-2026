@@ -13,7 +13,7 @@ The goal wasn't just to check if revenue went up or down. It was to find out why
 ## What's in this folder
 
 - `Wavecon_5G_Impact_Dashboard.pbix` -- Power BI dashboard with the full before/after breakdown by city and by plan
-- `Wavecon_Telecom_5G_Analysis.pptx` -- presentation deck walking through the analysis
+- `Wavecon_Telecom_5G_Analysis.pdf` -- presentation deck walking through the analysis
 - Video presentation -- [link to be added]
 
 ## Key findings
