@@ -39,8 +39,6 @@ Wavecon isn't losing money because customers are spending less. It's losing mone
 
 - Power BI (data modeling, DAX, dashboard)
 - PowerPoint (presentation)
-- Excel (initial data checks)
-
 ## Context
 
 This is Task 4 of Week 2 in the AtliQ Technologies Virtual Internship, run through the Codebasics bootcamp. See the main repo README for the full internship overview and the other weekly tasks.
