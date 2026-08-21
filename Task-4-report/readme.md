@@ -12,7 +12,7 @@ AtliQ provided the underlying Power BI dashboard, tracking Wavecon Telecom's per
 
 - `Wavecon_5G_Impact_Dashboard.pbix` -- the dashboard, data and measures provided by AtliQ, visuals restyled by me
 - `Wavecon_Telecom_5G_Analysis.pdf` -- the presentation deck I built from the dashboard's insights
-- Video presentation -- [link to be added]
+- Video presentation -- [Video-presentation](https://www.linkedin.com/posts/vishnu-ram-sachin-d-_codebasicsvirtualinternship-creativepresentation-ugcPost-7496354092160589824-OE3t/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-YjK4B1ekkuKaP0cSvVwYi6kAAiCTAQhY)
 
 ## Key findings
 
